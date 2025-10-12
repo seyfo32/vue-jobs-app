@@ -1,6 +1,9 @@
 
-<script>
+<script setup>
+import Navbar from '@/components/Navbar.vue';
+import Hero from '@/components/Hero.vue';
 </script>
 <template>
-  <h1 class="text-3xl font-bold text-blue-500">Tailwind Çalışıyor 🎉</h1>
+<Navbar/>
+<Hero title="Test Title" subTitle="Test Subtitle" />
 </template>
