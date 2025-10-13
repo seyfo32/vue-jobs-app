@@ -12,7 +12,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.22"
+    "primeicons": "^7.0.0",
+    "vue": "^3.5.22",
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.14",
