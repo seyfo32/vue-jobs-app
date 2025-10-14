@@ -1,6 +1,4 @@
-{
-  "jobs":[
-  
+[
   {
     "id": 1,
     "title": "Senior Vue Developer",
@@ -86,4 +84,3 @@
     }
   }
 ]
-}
