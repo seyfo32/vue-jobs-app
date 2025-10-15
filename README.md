@@ -54,7 +54,7 @@ npm run server
 This runs the following command behind the scenes:
 
 ```bash
-json-server --watch db.json --port 3000
+json-server --watch jobs.json --port 3000
 ```
 
 **Vite Proxy** is configured in `vite.config.js` to forward API requests (`/api`) to this mock server. This way, `axios.get('/api/jobs')` is translated to `http://localhost:3000/jobs` under the hood.
